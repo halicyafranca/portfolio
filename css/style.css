@@ -1,0 +1,143 @@
+/*===========================================
+Geral
+=============================================*/
+html{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-size: calc(12px + 0.390625vw);
+}
+section h2{
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+/*===========================================
+header
+=============================================*/
+header nav ul li {
+    text-align: center;
+    margin: 20px 0px 20px 0px ;
+}
+header nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
+/*===========================================
+Banner
+=============================================*/
+section.banner{
+      text-align: center;
+      margin: 0vw 5vw 5vw ;
+}
+section.banner img{
+    width: 40%;
+}
+section.banner h1{
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 20px 0px 20px 0px;
+}
+section.banner p{
+    margin: 20px 0px 20px 0px;
+}
+section.banner p button{
+    background: #FF6464;
+    color: white;
+    border: none;
+    font-size: 1.6rem;
+    padding: 10px 20px 10px 10px;
+    border-radius: 4px;
+}
+/*==============================================
+Posts
+================================================*/
+section.posts{
+    background: #EDF7FA;
+    padding: 20px 20px 20px 20px;
+}
+section.posts ul li{
+    background: #ffffff ;
+    margin: 20px 0px 20px 0px;
+    padding: 20px 20px 20px 20px;
+}
+section.posts ul li h3{
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+section.posts ul li p{
+    font-size: 1.3rem;
+    margin: 20px 0px 20px 0px;
+    line-height: 1.5rem;
+}
+/*================================================
+Works
+==================================================*/
+section.works {
+    margin: 20px 10px 20px 10px;
+}
+section.works ul li h3 {
+    font-size: 1.9rem;
+    font-weight: bold;
+    margin: 20px 10px 20px 10px;
+}
+section.works ul li p.info{
+    font-size: 1.3rem;
+    color: #8695A4;
+}
+section.works ul li p span{
+    background: #142850;
+    color: #ffffff;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+section.works ul li p{
+       margin: 20px 10px 20px 10px;
+       font-size: 1.3rem;
+       line-height: 1.5rem;
+}
+section.works ul li {
+    padding: 0px 20px 0px 20px;
+}
+/*================================================
+Footer
+==================================================*/
+footer{
+    text-align: center;
+    padding: 40vw 0px 40vw 0px ;
+}
+footer nav p a{
+    color: #21243D;
+    font-size: 2.5rem;
+    margin: 0px 15px 0px 15px;
+}
+
+/* CSS media query dentro de um stylesheet */
+@media (min-width: 900px) {
+    header {
+        padding: 3vw 2vw 5vw 2vw;
+    }
+  header nav ul {
+    display: flex;
+    justify-content: right;
+  }
+  header nav ul li {
+    margin: 0px 10px 0px 10px;
+  }
+
+  section.banner {
+    display: flex;
+    flex-direction:row-reverse;
+  }
+
+  section.banner div.texto {
+    width: 50%;
+    text-align: left;
+    padding: 0 10vw 0 0;
+  }
+
+  section.banner img{
+    width: 100%;
+  }
+}
