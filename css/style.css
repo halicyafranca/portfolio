@@ -118,6 +118,10 @@ footer nav p a{
     header {
         padding: 3vw 2vw 5vw 2vw;
     }
+    main section h2{
+        text-align: left;
+        margin: 0vw 0vw 0vw 2vw;
+    }
   header nav ul {
     display: flex;
     justify-content: right;
@@ -127,17 +131,34 @@ footer nav p a{
   }
 
   section.banner {
+    padding: 0 10vw 0 10vw;
     display: flex;
     flex-direction:row-reverse;
   }
 
   section.banner div.texto {
-    width: 50%;
     text-align: left;
     padding: 0 10vw 0 0;
   }
-
   section.banner img{
     width: 100%;
   }
+  section.posts {
+    padding: 3vw 10vw 3vw 10vw;
+  }
+  section.posts ul  {
+    display: flex;
+    margin: 1vw 0 0 0;
+   
+  }
+  section.posts ul li {
+    margin: 0 1vw 0 1vw;
+  }
+  section.works {
+    padding: 3vw 10vw 3vw 10vw;
+  }
+ section.works ul {
+   display: flex;
+   margin: 1vw 0 0 0;
+ }
 }
