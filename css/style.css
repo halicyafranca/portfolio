@@ -122,16 +122,42 @@ footer nav p a{
 ================================================
 ================================================
 ==================================================*/
- section.featured {
+ header nav ul li a span{
+  color: #FF6464;
+ }
+section.featured {
   margin: 10px 20px 10px 20px;
  }
  section.featured h1{
   font-size: xx-large;
+  margin: 20px 0px 20px 0px;
+  text-align: left;
+
  }
-
-
-
-
+ section.featured ul li h2{
+  margin: 0px 0px 10px 0px ;
+   text-align: left;
+   font-weight: bold;
+   font-size: x-large;
+ }
+ section.featured ul li p span{
+  background: #FF7C7C;
+  color: white;
+  padding:2px 2px 2px 2px;
+  border-radius: 20px;
+  font-weight: bold;
+ }
+ section.featured ul li p{
+       margin: 20px 10px 20px 10px;
+       font-size: 1.3rem;
+       line-height: 1.5rem;
+}
+section.featured img{
+  width: 90%;
+}
+/*=========================================
+============================================
+===========================================*/
 /* CSS media query dentro de um stylesheet */
 @media (min-width: 900px) {
     header {
