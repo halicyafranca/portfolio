@@ -129,13 +129,17 @@ section.featured {
   margin: 10px 20px 10px 20px;
  }
  section.featured h1{
-  font-size: xx-large;
+  font-size: 3rem;
   margin: 20px 0px 20px 0px;
   text-align: left;
 
  }
+ section.featured ul li {
+  border-bottom: 1px solid rgb(202, 202, 202);
+  padding: 5vw 0 5vw 0;
+ }
  section.featured ul li h2{
-  margin: 0px 0px 10px 0px ;
+  margin: 0px 0px 10px 0px ;  
    text-align: left;
    font-weight: bold;
    font-size: 1.5rem;
